@@ -1,0 +1,102 @@
+body {
+    color: navy
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mellcLogo {
+    width: auto;
+}
+
+.companyName {
+    flex: 1
+}
+
+a {
+    padding: 5px;
+}
+
+.containerMeetingPic {
+    display: flex;
+    justify-content: stretch;
+    margin: 50px 10px 0 10px;
+}
+.meetingPic {
+    flex-basis: 100%;
+}
+
+.containerMission {
+    margin: 50px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.missionPicSection {
+   flex: 1 1 30%;
+       
+}
+
+.buildingPic {
+    width: 50vw;
+}
+
+.mission {
+    font-size: 25px;
+    flex: 1 1 30%;
+}
+
+.missionTitle {
+    font-weight: bold;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+.containerServices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerServices > * {
+    flex: 1 0 33%;
+    text-align: center;
+    font-size: 25px;
+}
+.servicesTitle {
+    text-align: center;
+    text-shadow: black;
+    font-size: 35px;
+}
+
+/*.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 7%;
+    
+}*/
+
+
+img {
+    width: 150px;
+}
+
+/*.advisory {
+    flex-basis: 25%;
+}
+
+.cashFlow {
+    flex-basis: 25%;
+}
+
+.solutions {
+    flex-basis: 25%;
+}*/
